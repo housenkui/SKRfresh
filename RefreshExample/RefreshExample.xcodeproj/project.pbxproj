@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF787AB21E9F8DDD00E435B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF787A521E9F8DDD00E435B4 /* Assets.xcassets */; };
+		EF787AB31E9F8DDD00E435B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF787A531E9F8DDD00E435B4 /* LaunchScreen.storyboard */; };
+		EF787AB41E9F8DDD00E435B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF787A551E9F8DDD00E435B4 /* Main.storyboard */; };
+		EF787AB51E9F8DDD00E435B4 /* UIViewController+SKExample.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A5A1E9F8DDD00E435B4 /* UIViewController+SKExample.m */; };
+		EF787AB61E9F8DDD00E435B4 /* SKChiBaoZiFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A5D1E9F8DDD00E435B4 /* SKChiBaoZiFooter.m */; };
+		EF787AB71E9F8DDD00E435B4 /* SKChiBaoZiFooter2.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A5F1E9F8DDD00E435B4 /* SKChiBaoZiFooter2.m */; };
+		EF787AB81E9F8DDD00E435B4 /* SKChiBaoziHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A611E9F8DDD00E435B4 /* SKChiBaoziHeader.m */; };
+		EF787AB91E9F8DDD00E435B4 /* SKDIYAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A631E9F8DDD00E435B4 /* SKDIYAutoFooter.m */; };
+		EF787ABA1E9F8DDD00E435B4 /* SKDIYBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A651E9F8DDD00E435B4 /* SKDIYBackFooter.m */; };
+		EF787ABB1E9F8DDD00E435B4 /* SKDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A671E9F8DDD00E435B4 /* SKDIYHeader.m */; };
+		EF787ABC1E9F8DDD00E435B4 /* SKExample.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A6A1E9F8DDD00E435B4 /* SKExample.m */; };
+		EF787ABD1E9F8DDD00E435B4 /* SKExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A6C1E9F8DDD00E435B4 /* SKExampleViewController.m */; };
+		EF787ABE1E9F8DDD00E435B4 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A6F1E9F8DDD00E435B4 /* BSBacktraceLogger.m */; };
+		EF787ABF1E9F8DDD00E435B4 /* Xtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF787A711E9F8DDD00E435B4 /* Xtrace.mm */; };
+		EF787AC01E9F8DDD00E435B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A741E9F8DDD00E435B4 /* AppDelegate.m */; };
+		EF787AC11E9F8DDD00E435B4 /* SKCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A771E9F8DDD00E435B4 /* SKCollectionViewController.m */; };
+		EF787AC21E9F8DDD00E435B4 /* SKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A791E9F8DDD00E435B4 /* SKTableViewController.m */; };
+		EF787AC31E9F8DDD00E435B4 /* SKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A7B1E9F8DDD00E435B4 /* SKTestViewController.m */; };
+		EF787AC41E9F8DDD00E435B4 /* SKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A7D1E9F8DDD00E435B4 /* SKWebViewController.m */; };
+		EF787AC51E9F8DDD00E435B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF787A7E1E9F8DDD00E435B4 /* Info.plist */; };
+		EF787AC61E9F8DDD00E435B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A7F1E9F8DDD00E435B4 /* main.m */; };
+		EF787AC71E9F8DDD00E435B4 /* SKRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A831E9F8DDD00E435B4 /* SKRefreshAutoFooter.m */; };
+		EF787AC81E9F8DDD00E435B4 /* SKRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A851E9F8DDD00E435B4 /* SKRefreshBackFooter.m */; };
+		EF787AC91E9F8DDD00E435B4 /* SKRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A871E9F8DDD00E435B4 /* SKRefreshComponent.m */; };
+		EF787ACA1E9F8DDD00E435B4 /* SKRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A891E9F8DDD00E435B4 /* SKRefreshFooter.m */; };
+		EF787ACB1E9F8DDD00E435B4 /* SKRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A8B1E9F8DDD00E435B4 /* SKRefreshHeader.m */; };
+		EF787ACC1E9F8DDD00E435B4 /* NSBundle+SKRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A8F1E9F8DDD00E435B4 /* NSBundle+SKRefresh.m */; };
+		EF787ACD1E9F8DDD00E435B4 /* UIScrollView+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A911E9F8DDD00E435B4 /* UIScrollView+SKExtension.m */; };
+		EF787ACE1E9F8DDD00E435B4 /* UIScrollView+SKRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A931E9F8DDD00E435B4 /* UIScrollView+SKRefresh.m */; };
+		EF787ACF1E9F8DDE00E435B4 /* UIView+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A951E9F8DDD00E435B4 /* UIView+SKExtension.m */; };
+		EF787AD01E9F8DDE00E435B4 /* SKRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A981E9F8DDD00E435B4 /* SKRefreshConst.m */; };
+		EF787AD11E9F8DDE00E435B4 /* SKRefreshAutoGitFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A9C1E9F8DDD00E435B4 /* SKRefreshAutoGitFooter.m */; };
+		EF787AD21E9F8DDE00E435B4 /* SKRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787A9E1E9F8DDD00E435B4 /* SKRefreshAutoNormalFooter.m */; };
+		EF787AD31E9F8DDE00E435B4 /* SKRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787AA01E9F8DDD00E435B4 /* SKRefreshAutoStateFooter.m */; };
+		EF787AD41E9F8DDE00E435B4 /* SKRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787AA31E9F8DDD00E435B4 /* SKRefreshBackGifFooter.m */; };
+		EF787AD51E9F8DDE00E435B4 /* SKRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787AA51E9F8DDD00E435B4 /* SKRefreshBackNormalFooter.m */; };
+		EF787AD61E9F8DDE00E435B4 /* SKRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787AA71E9F8DDD00E435B4 /* SKRefreshBackStateFooter.m */; };
+		EF787AD71E9F8DDE00E435B4 /* SKRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787AAA1E9F8DDD00E435B4 /* SKRefreshGifHeader.m */; };
+		EF787AD81E9F8DDE00E435B4 /* SKRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787AAC1E9F8DDD00E435B4 /* SKRefreshNormalHeader.m */; };
+		EF787AD91E9F8DDE00E435B4 /* SKRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF787AAE1E9F8DDD00E435B4 /* SKRefreshStateHeader.m */; };
+		EF787ADA1E9F8DDE00E435B4 /* SKRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF787AB01E9F8DDD00E435B4 /* SKRefresh.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF787A371E9F8CE300E435B4 /* RefreshExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF787A521E9F8DDD00E435B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF787A541E9F8DDD00E435B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF787A561E9F8DDD00E435B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF787A591E9F8DDD00E435B4 /* UIViewController+SKExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SKExample.h"; sourceTree = "<group>"; };
+		EF787A5A1E9F8DDD00E435B4 /* UIViewController+SKExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SKExample.m"; sourceTree = "<group>"; };
+		EF787A5C1E9F8DDD00E435B4 /* SKChiBaoZiFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKChiBaoZiFooter.h; sourceTree = "<group>"; };
+		EF787A5D1E9F8DDD00E435B4 /* SKChiBaoZiFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKChiBaoZiFooter.m; sourceTree = "<group>"; };
+		EF787A5E1E9F8DDD00E435B4 /* SKChiBaoZiFooter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKChiBaoZiFooter2.h; sourceTree = "<group>"; };
+		EF787A5F1E9F8DDD00E435B4 /* SKChiBaoZiFooter2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKChiBaoZiFooter2.m; sourceTree = "<group>"; };
+		EF787A601E9F8DDD00E435B4 /* SKChiBaoziHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKChiBaoziHeader.h; sourceTree = "<group>"; };
+		EF787A611E9F8DDD00E435B4 /* SKChiBaoziHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKChiBaoziHeader.m; sourceTree = "<group>"; };
+		EF787A621E9F8DDD00E435B4 /* SKDIYAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDIYAutoFooter.h; sourceTree = "<group>"; };
+		EF787A631E9F8DDD00E435B4 /* SKDIYAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDIYAutoFooter.m; sourceTree = "<group>"; };
+		EF787A641E9F8DDD00E435B4 /* SKDIYBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDIYBackFooter.h; sourceTree = "<group>"; };
+		EF787A651E9F8DDD00E435B4 /* SKDIYBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDIYBackFooter.m; sourceTree = "<group>"; };
+		EF787A661E9F8DDD00E435B4 /* SKDIYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDIYHeader.h; sourceTree = "<group>"; };
+		EF787A671E9F8DDD00E435B4 /* SKDIYHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDIYHeader.m; sourceTree = "<group>"; };
+		EF787A691E9F8DDD00E435B4 /* SKExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKExample.h; sourceTree = "<group>"; };
+		EF787A6A1E9F8DDD00E435B4 /* SKExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKExample.m; sourceTree = "<group>"; };
+		EF787A6B1E9F8DDD00E435B4 /* SKExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKExampleViewController.h; sourceTree = "<group>"; };
+		EF787A6C1E9F8DDD00E435B4 /* SKExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKExampleViewController.m; sourceTree = "<group>"; };
+		EF787A6E1E9F8DDD00E435B4 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		EF787A6F1E9F8DDD00E435B4 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		EF787A701E9F8DDD00E435B4 /* Xtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xtrace.h; sourceTree = "<group>"; };
+		EF787A711E9F8DDD00E435B4 /* Xtrace.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Xtrace.mm; sourceTree = "<group>"; };
+		EF787A731E9F8DDD00E435B4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF787A741E9F8DDD00E435B4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF787A761E9F8DDD00E435B4 /* SKCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCollectionViewController.h; sourceTree = "<group>"; };
+		EF787A771E9F8DDD00E435B4 /* SKCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCollectionViewController.m; sourceTree = "<group>"; };
+		EF787A781E9F8DDD00E435B4 /* SKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTableViewController.h; sourceTree = "<group>"; };
+		EF787A791E9F8DDD00E435B4 /* SKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTableViewController.m; sourceTree = "<group>"; };
+		EF787A7A1E9F8DDD00E435B4 /* SKTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTestViewController.h; sourceTree = "<group>"; };
+		EF787A7B1E9F8DDD00E435B4 /* SKTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTestViewController.m; sourceTree = "<group>"; };
+		EF787A7C1E9F8DDD00E435B4 /* SKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWebViewController.h; sourceTree = "<group>"; };
+		EF787A7D1E9F8DDD00E435B4 /* SKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWebViewController.m; sourceTree = "<group>"; };
+		EF787A7E1E9F8DDD00E435B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF787A7F1E9F8DDD00E435B4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF787A821E9F8DDD00E435B4 /* SKRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshAutoFooter.h; sourceTree = "<group>"; };
+		EF787A831E9F8DDD00E435B4 /* SKRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshAutoFooter.m; sourceTree = "<group>"; };
+		EF787A841E9F8DDD00E435B4 /* SKRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshBackFooter.h; sourceTree = "<group>"; };
+		EF787A851E9F8DDD00E435B4 /* SKRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshBackFooter.m; sourceTree = "<group>"; };
+		EF787A861E9F8DDD00E435B4 /* SKRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshComponent.h; sourceTree = "<group>"; };
+		EF787A871E9F8DDD00E435B4 /* SKRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshComponent.m; sourceTree = "<group>"; };
+		EF787A881E9F8DDD00E435B4 /* SKRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshFooter.h; sourceTree = "<group>"; };
+		EF787A891E9F8DDD00E435B4 /* SKRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshFooter.m; sourceTree = "<group>"; };
+		EF787A8A1E9F8DDD00E435B4 /* SKRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshHeader.h; sourceTree = "<group>"; };
+		EF787A8B1E9F8DDD00E435B4 /* SKRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshHeader.m; sourceTree = "<group>"; };
+		EF787A8E1E9F8DDD00E435B4 /* NSBundle+SKRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SKRefresh.h"; sourceTree = "<group>"; };
+		EF787A8F1E9F8DDD00E435B4 /* NSBundle+SKRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SKRefresh.m"; sourceTree = "<group>"; };
+		EF787A901E9F8DDD00E435B4 /* UIScrollView+SKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SKExtension.h"; sourceTree = "<group>"; };
+		EF787A911E9F8DDD00E435B4 /* UIScrollView+SKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SKExtension.m"; sourceTree = "<group>"; };
+		EF787A921E9F8DDD00E435B4 /* UIScrollView+SKRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SKRefresh.h"; sourceTree = "<group>"; };
+		EF787A931E9F8DDD00E435B4 /* UIScrollView+SKRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SKRefresh.m"; sourceTree = "<group>"; };
+		EF787A941E9F8DDD00E435B4 /* UIView+SKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKExtension.h"; sourceTree = "<group>"; };
+		EF787A951E9F8DDD00E435B4 /* UIView+SKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKExtension.m"; sourceTree = "<group>"; };
+		EF787A971E9F8DDD00E435B4 /* SKRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshConst.h; sourceTree = "<group>"; };
+		EF787A981E9F8DDD00E435B4 /* SKRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshConst.m; sourceTree = "<group>"; };
+		EF787A9B1E9F8DDD00E435B4 /* SKRefreshAutoGitFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshAutoGitFooter.h; sourceTree = "<group>"; };
+		EF787A9C1E9F8DDD00E435B4 /* SKRefreshAutoGitFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshAutoGitFooter.m; sourceTree = "<group>"; };
+		EF787A9D1E9F8DDD00E435B4 /* SKRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		EF787A9E1E9F8DDD00E435B4 /* SKRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		EF787A9F1E9F8DDD00E435B4 /* SKRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		EF787AA01E9F8DDD00E435B4 /* SKRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		EF787AA21E9F8DDD00E435B4 /* SKRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		EF787AA31E9F8DDD00E435B4 /* SKRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		EF787AA41E9F8DDD00E435B4 /* SKRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		EF787AA51E9F8DDD00E435B4 /* SKRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		EF787AA61E9F8DDD00E435B4 /* SKRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		EF787AA71E9F8DDD00E435B4 /* SKRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		EF787AA91E9F8DDD00E435B4 /* SKRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshGifHeader.h; sourceTree = "<group>"; };
+		EF787AAA1E9F8DDD00E435B4 /* SKRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshGifHeader.m; sourceTree = "<group>"; };
+		EF787AAB1E9F8DDD00E435B4 /* SKRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshNormalHeader.h; sourceTree = "<group>"; };
+		EF787AAC1E9F8DDD00E435B4 /* SKRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshNormalHeader.m; sourceTree = "<group>"; };
+		EF787AAD1E9F8DDD00E435B4 /* SKRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshStateHeader.h; sourceTree = "<group>"; };
+		EF787AAE1E9F8DDD00E435B4 /* SKRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshStateHeader.m; sourceTree = "<group>"; };
+		EF787AB01E9F8DDD00E435B4 /* SKRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKRefresh.bundle; sourceTree = "<group>"; };
+		EF787AB11E9F8DDD00E435B4 /* SKRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefresh.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF787A341E9F8CE300E435B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF787A2E1E9F8CE300E435B4 = {
+			isa = PBXGroup;
+			children = (
+				EF787A511E9F8DDD00E435B4 /* SKRefreshExample */,
+				EF787A381E9F8CE300E435B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF787A381E9F8CE300E435B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A371E9F8CE300E435B4 /* RefreshExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF787A511E9F8DDD00E435B4 /* SKRefreshExample */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A521E9F8DDD00E435B4 /* Assets.xcassets */,
+				EF787A531E9F8DDD00E435B4 /* LaunchScreen.storyboard */,
+				EF787A551E9F8DDD00E435B4 /* Main.storyboard */,
+				EF787A571E9F8DDD00E435B4 /* Classes */,
+				EF787A7E1E9F8DDD00E435B4 /* Info.plist */,
+				EF787A7F1E9F8DDD00E435B4 /* main.m */,
+				EF787A801E9F8DDD00E435B4 /* SKRefresh */,
+			);
+			path = SKRefreshExample;
+			sourceTree = "<group>";
+		};
+		EF787A571E9F8DDD00E435B4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A581E9F8DDD00E435B4 /* Category */,
+				EF787A5B1E9F8DDD00E435B4 /* DIY */,
+				EF787A681E9F8DDD00E435B4 /* First */,
+				EF787A6D1E9F8DDD00E435B4 /* LibClass */,
+				EF787A721E9F8DDD00E435B4 /* Other */,
+				EF787A751E9F8DDD00E435B4 /* Second */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF787A581E9F8DDD00E435B4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A591E9F8DDD00E435B4 /* UIViewController+SKExample.h */,
+				EF787A5A1E9F8DDD00E435B4 /* UIViewController+SKExample.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EF787A5B1E9F8DDD00E435B4 /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A5C1E9F8DDD00E435B4 /* SKChiBaoZiFooter.h */,
+				EF787A5D1E9F8DDD00E435B4 /* SKChiBaoZiFooter.m */,
+				EF787A5E1E9F8DDD00E435B4 /* SKChiBaoZiFooter2.h */,
+				EF787A5F1E9F8DDD00E435B4 /* SKChiBaoZiFooter2.m */,
+				EF787A601E9F8DDD00E435B4 /* SKChiBaoziHeader.h */,
+				EF787A611E9F8DDD00E435B4 /* SKChiBaoziHeader.m */,
+				EF787A621E9F8DDD00E435B4 /* SKDIYAutoFooter.h */,
+				EF787A631E9F8DDD00E435B4 /* SKDIYAutoFooter.m */,
+				EF787A641E9F8DDD00E435B4 /* SKDIYBackFooter.h */,
+				EF787A651E9F8DDD00E435B4 /* SKDIYBackFooter.m */,
+				EF787A661E9F8DDD00E435B4 /* SKDIYHeader.h */,
+				EF787A671E9F8DDD00E435B4 /* SKDIYHeader.m */,
+			);
+			path = DIY;
+			sourceTree = "<group>";
+		};
+		EF787A681E9F8DDD00E435B4 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A691E9F8DDD00E435B4 /* SKExample.h */,
+				EF787A6A1E9F8DDD00E435B4 /* SKExample.m */,
+				EF787A6B1E9F8DDD00E435B4 /* SKExampleViewController.h */,
+				EF787A6C1E9F8DDD00E435B4 /* SKExampleViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		EF787A6D1E9F8DDD00E435B4 /* LibClass */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A6E1E9F8DDD00E435B4 /* BSBacktraceLogger.h */,
+				EF787A6F1E9F8DDD00E435B4 /* BSBacktraceLogger.m */,
+				EF787A701E9F8DDD00E435B4 /* Xtrace.h */,
+				EF787A711E9F8DDD00E435B4 /* Xtrace.mm */,
+			);
+			path = LibClass;
+			sourceTree = "<group>";
+		};
+		EF787A721E9F8DDD00E435B4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A731E9F8DDD00E435B4 /* AppDelegate.h */,
+				EF787A741E9F8DDD00E435B4 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EF787A751E9F8DDD00E435B4 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A761E9F8DDD00E435B4 /* SKCollectionViewController.h */,
+				EF787A771E9F8DDD00E435B4 /* SKCollectionViewController.m */,
+				EF787A781E9F8DDD00E435B4 /* SKTableViewController.h */,
+				EF787A791E9F8DDD00E435B4 /* SKTableViewController.m */,
+				EF787A7A1E9F8DDD00E435B4 /* SKTestViewController.h */,
+				EF787A7B1E9F8DDD00E435B4 /* SKTestViewController.m */,
+				EF787A7C1E9F8DDD00E435B4 /* SKWebViewController.h */,
+				EF787A7D1E9F8DDD00E435B4 /* SKWebViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		EF787A801E9F8DDD00E435B4 /* SKRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A811E9F8DDD00E435B4 /* Base */,
+				EF787A8C1E9F8DDD00E435B4 /* Custom */,
+			);
+			path = SKRefresh;
+			sourceTree = "<group>";
+		};
+		EF787A811E9F8DDD00E435B4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A821E9F8DDD00E435B4 /* SKRefreshAutoFooter.h */,
+				EF787A831E9F8DDD00E435B4 /* SKRefreshAutoFooter.m */,
+				EF787A841E9F8DDD00E435B4 /* SKRefreshBackFooter.h */,
+				EF787A851E9F8DDD00E435B4 /* SKRefreshBackFooter.m */,
+				EF787A861E9F8DDD00E435B4 /* SKRefreshComponent.h */,
+				EF787A871E9F8DDD00E435B4 /* SKRefreshComponent.m */,
+				EF787A881E9F8DDD00E435B4 /* SKRefreshFooter.h */,
+				EF787A891E9F8DDD00E435B4 /* SKRefreshFooter.m */,
+				EF787A8A1E9F8DDD00E435B4 /* SKRefreshHeader.h */,
+				EF787A8B1E9F8DDD00E435B4 /* SKRefreshHeader.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EF787A8C1E9F8DDD00E435B4 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A8D1E9F8DDD00E435B4 /* Category */,
+				EF787A961E9F8DDD00E435B4 /* Const */,
+				EF787A991E9F8DDD00E435B4 /* Footer */,
+				EF787AA81E9F8DDD00E435B4 /* Header */,
+				EF787AAF1E9F8DDD00E435B4 /* Resource */,
+				EF787AB11E9F8DDD00E435B4 /* SKRefresh.h */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EF787A8D1E9F8DDD00E435B4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A8E1E9F8DDD00E435B4 /* NSBundle+SKRefresh.h */,
+				EF787A8F1E9F8DDD00E435B4 /* NSBundle+SKRefresh.m */,
+				EF787A901E9F8DDD00E435B4 /* UIScrollView+SKExtension.h */,
+				EF787A911E9F8DDD00E435B4 /* UIScrollView+SKExtension.m */,
+				EF787A921E9F8DDD00E435B4 /* UIScrollView+SKRefresh.h */,
+				EF787A931E9F8DDD00E435B4 /* UIScrollView+SKRefresh.m */,
+				EF787A941E9F8DDD00E435B4 /* UIView+SKExtension.h */,
+				EF787A951E9F8DDD00E435B4 /* UIView+SKExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EF787A961E9F8DDD00E435B4 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A971E9F8DDD00E435B4 /* SKRefreshConst.h */,
+				EF787A981E9F8DDD00E435B4 /* SKRefreshConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		EF787A991E9F8DDD00E435B4 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A9A1E9F8DDD00E435B4 /* Auto */,
+				EF787AA11E9F8DDD00E435B4 /* Back */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		EF787A9A1E9F8DDD00E435B4 /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				EF787A9B1E9F8DDD00E435B4 /* SKRefreshAutoGitFooter.h */,
+				EF787A9C1E9F8DDD00E435B4 /* SKRefreshAutoGitFooter.m */,
+				EF787A9D1E9F8DDD00E435B4 /* SKRefreshAutoNormalFooter.h */,
+				EF787A9E1E9F8DDD00E435B4 /* SKRefreshAutoNormalFooter.m */,
+				EF787A9F1E9F8DDD00E435B4 /* SKRefreshAutoStateFooter.h */,
+				EF787AA01E9F8DDD00E435B4 /* SKRefreshAutoStateFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		EF787AA11E9F8DDD00E435B4 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				EF787AA21E9F8DDD00E435B4 /* SKRefreshBackGifFooter.h */,
+				EF787AA31E9F8DDD00E435B4 /* SKRefreshBackGifFooter.m */,
+				EF787AA41E9F8DDD00E435B4 /* SKRefreshBackNormalFooter.h */,
+				EF787AA51E9F8DDD00E435B4 /* SKRefreshBackNormalFooter.m */,
+				EF787AA61E9F8DDD00E435B4 /* SKRefreshBackStateFooter.h */,
+				EF787AA71E9F8DDD00E435B4 /* SKRefreshBackStateFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		EF787AA81E9F8DDD00E435B4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				EF787AA91E9F8DDD00E435B4 /* SKRefreshGifHeader.h */,
+				EF787AAA1E9F8DDD00E435B4 /* SKRefreshGifHeader.m */,
+				EF787AAB1E9F8DDD00E435B4 /* SKRefreshNormalHeader.h */,
+				EF787AAC1E9F8DDD00E435B4 /* SKRefreshNormalHeader.m */,
+				EF787AAD1E9F8DDD00E435B4 /* SKRefreshStateHeader.h */,
+				EF787AAE1E9F8DDD00E435B4 /* SKRefreshStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		EF787AAF1E9F8DDD00E435B4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EF787AB01E9F8DDD00E435B4 /* SKRefresh.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF787A361E9F8CE300E435B4 /* RefreshExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF787A4E1E9F8CE300E435B4 /* Build configuration list for PBXNativeTarget "RefreshExample" */;
+			buildPhases = (
+				EF787A331E9F8CE300E435B4 /* Sources */,
+				EF787A341E9F8CE300E435B4 /* Frameworks */,
+				EF787A351E9F8CE300E435B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefreshExample;
+			productName = RefreshExample;
+			productReference = EF787A371E9F8CE300E435B4 /* RefreshExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF787A2F1E9F8CE300E435B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "侯森魁";
+				TargetAttributes = {
+					EF787A361E9F8CE300E435B4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = EF787A321E9F8CE300E435B4 /* Build configuration list for PBXProject "RefreshExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF787A2E1E9F8CE300E435B4;
+			productRefGroup = EF787A381E9F8CE300E435B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF787A361E9F8CE300E435B4 /* RefreshExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF787A351E9F8CE300E435B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF787ADA1E9F8DDE00E435B4 /* SKRefresh.bundle in Resources */,
+				EF787AC51E9F8DDD00E435B4 /* Info.plist in Resources */,
+				EF787AB41E9F8DDD00E435B4 /* Main.storyboard in Resources */,
+				EF787AB21E9F8DDD00E435B4 /* Assets.xcassets in Resources */,
+				EF787AB31E9F8DDD00E435B4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF787A331E9F8CE300E435B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF787AD61E9F8DDE00E435B4 /* SKRefreshBackStateFooter.m in Sources */,
+				EF787ABC1E9F8DDD00E435B4 /* SKExample.m in Sources */,
+				EF787ACA1E9F8DDD00E435B4 /* SKRefreshFooter.m in Sources */,
+				EF787AD01E9F8DDE00E435B4 /* SKRefreshConst.m in Sources */,
+				EF787AD91E9F8DDE00E435B4 /* SKRefreshStateHeader.m in Sources */,
+				EF787ABA1E9F8DDD00E435B4 /* SKDIYBackFooter.m in Sources */,
+				EF787AB71E9F8DDD00E435B4 /* SKChiBaoZiFooter2.m in Sources */,
+				EF787ACF1E9F8DDE00E435B4 /* UIView+SKExtension.m in Sources */,
+				EF787AD71E9F8DDE00E435B4 /* SKRefreshGifHeader.m in Sources */,
+				EF787ACC1E9F8DDD00E435B4 /* NSBundle+SKRefresh.m in Sources */,
+				EF787ABF1E9F8DDD00E435B4 /* Xtrace.mm in Sources */,
+				EF787ABB1E9F8DDD00E435B4 /* SKDIYHeader.m in Sources */,
+				EF787AD81E9F8DDE00E435B4 /* SKRefreshNormalHeader.m in Sources */,
+				EF787AB91E9F8DDD00E435B4 /* SKDIYAutoFooter.m in Sources */,
+				EF787AB81E9F8DDD00E435B4 /* SKChiBaoziHeader.m in Sources */,
+				EF787AC71E9F8DDD00E435B4 /* SKRefreshAutoFooter.m in Sources */,
+				EF787AD51E9F8DDE00E435B4 /* SKRefreshBackNormalFooter.m in Sources */,
+				EF787AB51E9F8DDD00E435B4 /* UIViewController+SKExample.m in Sources */,
+				EF787ACD1E9F8DDD00E435B4 /* UIScrollView+SKExtension.m in Sources */,
+				EF787AC31E9F8DDD00E435B4 /* SKTestViewController.m in Sources */,
+				EF787AD31E9F8DDE00E435B4 /* SKRefreshAutoStateFooter.m in Sources */,
+				EF787AC11E9F8DDD00E435B4 /* SKCollectionViewController.m in Sources */,
+				EF787AD11E9F8DDE00E435B4 /* SKRefreshAutoGitFooter.m in Sources */,
+				EF787AC91E9F8DDD00E435B4 /* SKRefreshComponent.m in Sources */,
+				EF787AC01E9F8DDD00E435B4 /* AppDelegate.m in Sources */,
+				EF787AD21E9F8DDE00E435B4 /* SKRefreshAutoNormalFooter.m in Sources */,
+				EF787AC41E9F8DDD00E435B4 /* SKWebViewController.m in Sources */,
+				EF787AC61E9F8DDD00E435B4 /* main.m in Sources */,
+				EF787ABD1E9F8DDD00E435B4 /* SKExampleViewController.m in Sources */,
+				EF787AC21E9F8DDD00E435B4 /* SKTableViewController.m in Sources */,
+				EF787ACB1E9F8DDD00E435B4 /* SKRefreshHeader.m in Sources */,
+				EF787AD41E9F8DDE00E435B4 /* SKRefreshBackGifFooter.m in Sources */,
+				EF787AB61E9F8DDD00E435B4 /* SKChiBaoZiFooter.m in Sources */,
+				EF787AC81E9F8DDD00E435B4 /* SKRefreshBackFooter.m in Sources */,
+				EF787ACE1E9F8DDD00E435B4 /* UIScrollView+SKRefresh.m in Sources */,
+				EF787ABE1E9F8DDD00E435B4 /* BSBacktraceLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF787A531E9F8DDD00E435B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF787A541E9F8DDD00E435B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EF787A551E9F8DDD00E435B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF787A561E9F8DDD00E435B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF787A4C1E9F8CE300E435B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF787A4D1E9F8CE300E435B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF787A4F1E9F8CE300E435B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SKRefreshExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "housenkui-gmail.com.RefreshExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF787A501E9F8CE300E435B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SKRefreshExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "housenkui-gmail.com.RefreshExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF787A321E9F8CE300E435B4 /* Build configuration list for PBXProject "RefreshExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF787A4C1E9F8CE300E435B4 /* Debug */,
+				EF787A4D1E9F8CE300E435B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF787A4E1E9F8CE300E435B4 /* Build configuration list for PBXNativeTarget "RefreshExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF787A4F1E9F8CE300E435B4 /* Debug */,
+				EF787A501E9F8CE300E435B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF787A2F1E9F8CE300E435B4 /* Project object */;
+}
