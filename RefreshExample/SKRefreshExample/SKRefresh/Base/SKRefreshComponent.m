@@ -168,7 +168,7 @@ static inline void SKLog(SEL _cmd){
             
             self.state = SKRefreshStateWillRefresh;
             //刷新(预防从另一个控制器回到这个控制器的情况，回来要重新刷新一下)
-//            [self setNeedsDisplay];
+            [self setNeedsDisplay];
             /*
              个人认为
              这个时候不用去画图，因为图形已经画好了，
@@ -179,9 +179,8 @@ static inline void SKLog(SEL _cmd){
                    willMoveToWindow
                    didMoveToWindow
                    layoutSubviews
-             与柏拉图为友，与亚里士多德为友，更要与真理为友
              */
-            [self setNeedsLayout];
+//            [self setNeedsLayout];
         }
     }
 }
